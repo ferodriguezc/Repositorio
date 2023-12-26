@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'fuentepersonalizada';
+    src: url('fuentes/Chalkboy\ Free\ Trial.woff') format('woff');
+}
+
+
+
+html {
+    margin: 5px;
+}
+
+
+.barra-superior {
+    background-color: #3498db; /* Cambia el color según tus preferencias */
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.barra-inferior {
+    background-color: #3498db; /* Cambia el color según tus preferencias */
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.titulo {
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'fuentepersonalizada', sans-serif;
+}
+
+
+
+.Parrafo {
+    margin: 2%;
+    text-align: justify;
+
+}
+
+.resultado {
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulo {
+    text-transform: uppercase;
+    align-items: center;
+    font-weight: bold;
+}
+
+.subpeso {
+
+    text-align: justify;
+    margin: 3%;
+
+}
+
+.fondo {
+
+    display: block;
+
+}
+
+.cuerpo_m {
+
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+
+}
+
+input {
+    width: 100%;
+    max-width: 300px; /* Ajusta según tus necesidades */
+    box-sizing: border-box; /* Asegura que el ancho incluya el relleno y el borde */
+}
+
+.posicion_boton {
+
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+}
+
+
+.ref {
+    margin: 2%;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}

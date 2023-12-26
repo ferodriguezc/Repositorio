@@ -1,0 +1,12 @@
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\bin\Debug\eva_01.exe.config
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\bin\Debug\eva_01.exe
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\bin\Debug\eva_01.pdb
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\bin\Debug\eva_01.xml
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.vbproj.AssemblyReference.cache
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.Form1.resources
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.Resources.resources
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.vbproj.GenerateResource.cache
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.vbproj.CoreCompileInputs.cache
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.exe
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.xml
+C:\Users\felip\OneDrive\Escritorio\proyectos\.net\eva_01\eva_01\obj\Debug\eva_01.pdb
