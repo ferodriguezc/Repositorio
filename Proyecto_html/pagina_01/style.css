@@ -1,0 +1,58 @@
+body, html {
+    display: block;
+    height: 110%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(0, 0, 0),rgb(41, 41, 41));
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+p {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    color: aliceblue;
+}
+
+.barra {
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.articulo {
+    margin: 5%;
+    border-radius: 10px;
+    background-color: rgb(5, 161, 5);
+    overflow: hidden;
+}
+
+.articulo:hover {
+    background-color: bisque;
+}
+
+
+
+
+.codigo {
+    margin-left: 10%;
+    width: 100%;
+    text-align: justify;
+    font-family: 'Courier New', monospace;
+    white-space: pre-wrap;
+}
+
+.tituloArt {
+    padding: 2%;
+    margin: 0%;
+    background-color: black;
+    color: aliceblue;
+    padding-left: 3%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}

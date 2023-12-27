@@ -1,0 +1,168 @@
+/* Definir la nueva fuente */
+@font-face {
+    font-family: 'TU_NUEVA_FUENTE';
+    src: url('font/Present.otf') format('opentype');
+    /* Reemplaza con el nombre real de tu archivo de fuente */
+}
+
+/* Estilos globales para el cuerpo y el HTML */
+body, html {
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'TU_NUEVA_FUENTE';
+    font-size: 25px;
+}
+
+/* Estilos para la foto_E */
+#foto_E {
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid rgb(247, 178, 181);
+    height: 180px;
+    width: 150px;
+}
+
+/* Estilos para el encabezado */
+.encabezado {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Estilos para la barra */
+.barra {
+    text-align: center;
+}
+
+/* Estilos para el botón */
+/* Estilos para el botón */
+button {
+    border: 0;
+    margin: 3%;
+    font-size: 20px; /* Corregido de 'size' a 'font-size' */
+    background-color: rgb(247, 178, 181);
+    border-radius: 10px;
+    height: 200%;
+    padding: 2%;
+    color: aliceblue;
+}
+
+/* Estilos para los párrafos */
+p {
+    text-align: center;
+    color: rgb(277, 6, 19);
+}
+
+/* Estilos para los títulos */
+.titulo {
+    text-align: center;
+    color: rgb(277, 6, 19);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el artículo */
+.articulo {
+    margin-top: 20%;
+    text-align: center;
+    
+}
+
+
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* Estilos para .foto_p */
+.foto_p {
+    /* Ajusta las propiedades según tus necesidades */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(247, 178, 181);
+    box-sizing: border-box;
+    margin: 1%;
+    height: 50px;
+    width: 100%;
+    /* Añade una transición para suavizar el cambio */
+    transition: height 1s ease-in-out;
+    overflow: hidden;
+}
+
+
+
+/* Clase de animación */
+.foto_p.expandir {
+    height: 500px; /* Altura cuando se expande */
+    animation: expandir 1s forwards;
+}
+
+/* Clase de reset */
+.foto_p.contraer {
+    height: 50px; /* Altura cuando se expande */
+    animation: contraer 1s forwards;
+}
+
+
+
+.imagen {
+    display: flex;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen img {
+    height: 100%; /* La imagen ocupará el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+}
+
+
+
+@keyframes expandir {
+    from {
+        height: 50px;
+    }
+    to {
+        height: 500px;
+    }
+}
+
+
+
+@keyframes contraer {
+    0% {
+        height: 500px;
+    }
+    100% {
+        height: 50px;
+    }
+}
+
+
+
+footer {
+    background-color: rgb(247, 178, 181);
+}
+
+

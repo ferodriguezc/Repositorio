@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- La etiqueta <head> es donde se encuentran los metadatos de la página,
+     es decir, la información que no es visible para los lectores, 
+     pero sí para los motores de búsqueda. En esta sección, se incluye el 
+     tipo de conjunto de caracteres (charset), el título de la página y 
+     otras características importantes. -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="En la presente página se presenta mi currículum vitae ">
+    <meta name="keywords" content="HTML5, meta, etiqueta, tutorial">
+    <meta name="author" content="Felipe Rodriguez c.">
+    <title>Felipe Rodríguez Candia</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+</head>
+
+<!-- Dentro de la etiqueta <body>, se encuentran varias etiquetas que 
+    se utilizan en la creación de una página web. Estas etiquetas permiten
+     organizar y dar una estructura a la página. Algunas de las etiquetas
+     comunes que se encuentran dentro de <body> incluyen <header>, <nav>,
+     <main>, <footer>, entre otras. Estas estructuras organizativas 
+     ayudan a darle una forma coherente y estructurada a la página web.-->
+
+<body class="cuerpo">
+
+    <!--La etiqueta <header> se utiliza para el encabezado de la página web
+     y comúnmente se le asigna una clase, como "encabezado", para facilitar 
+     su edición posterior en CSS.-->
+
+    <header class="encabezado">
+
+        <!--dentro de header  colocamos  los elementos que lo conformaran
+    en este caso una imagen  y el titulo de la página en formato h1. 
+-->
+        <img id="foto_perfil" src="Fotos/foto.png" alt="foto">
+        <p>
+        <h1 id="texto_titulo">FELIPE ENRIQUE RODRÍGUEZ CANDIA <br> ANALISTA PROGRAMADOR</h1>
+        </p>
+
+      
+    </header>
+
+    <!--La etiqueta <nav> se utiliza para la creacion de menus de acceso de la página web
+     y se le asigno la clase menu para su edición posterior en CSS.-->
+    <nav class="menu">
+
+         <button class="botones"> <a href="#info" id="linkform"><h3>INFORMACIÓN PERSONAL</h3></a></button>
+         <button class="botones"> <a href="#Acerca" id="linkform"><h3>ACERCA DE MI</h3></a></button>
+         <button class="botones"> <a href="#formación" id="linkform"><h3>FORMACIÓN ACADÉMICA</h3></a></button>
+         <button class="botones"> <a href="#laboral" id="linkform"><h3>EXPERIENCIA LABORAL</h3></a></button>
+         
+    </nav>
+
+    <main class="principal">
+
+        <!-- Aquí continúa con más secciones de la página, como 
+    "Acerca de mí", "Formación Académica" y "Experiencia Laboral". -->
+
+        <!-- Varios contenedores con las clases 'marco' y 'titulo' albergan
+         información que será editada en CSS para darle estilo. -->
+
+        <!--Primer <div> contenedor "INFORMACIÓN PERSONAL". -->
+
+        <div class="marco">
+
+            <div>
+                <div class="titulo">
+                    <h3>
+                        <p id="info">INFORMACIÓN PERSONAL</p>
+                    </h3>
+                </div>
+            </div>
+
+            <div class="texto">
+                <h3>
+
+                    <!-- Texto en  lista . -->
+
+                    <ul class="lista">
+
+                        <li>Edad: 31 Años</li>
+
+                        <li>Estado civil: Casado</li>
+
+                        <li>Nacionalidad: Chilena</li>
+
+                        <li>Dirección: Valdivia 377, <br> Puente alto, Santiago, Chile </li>
+
+                </h3>
+                </ul>
+            </div>
+        </div>
+
+        <!--Segundo <div> contenedor "Acerca de mi". -->
+        <div class="marco">
+            <div>
+                <div>
+                    <div class="titulo">
+                        <h3>
+                            <p id="Acerca">ACERCA DE MI</p>
+                        </h3>
+                    </div>
+                </div>
+                <div class="texto">
+                    <h3>
+                        <p> Me considero una persona muy comprometida con mi trabajo, siempre busco colaborar con mis
+                            compañeros para alcanzar
+                            los objetivos de la compañía. Del mismo modo, me aseguro de llegar a tiempo y cumplir con
+                            los plazos establecidos.
+                            Además, soy muy responsable y me tomo en serio mis deberes y tareas. Esto me permite cumplir
+                            con mis compromisos de
+                            manera eficiente y efectiva.
+                        </p>
+                    </h3>
+                </div>
+            </div>
+        </div>
+
+        <!--Tercer <div> contenedor "Formación Académica". -->
+        <div class="marco">
+            <div class="titulo">
+                <h3>
+                    <p id="formación">FORMACIÓN ACADÉMICA</p>
+                </h3>
+            </div>
+            <div class="texto">
+                <h3>
+                    <p> Analista Programador Computacional
+                        <br>
+                        IP  Chile, Sede República
+                        <br>
+                        2022 - A la fecha
+                    </p>
+                    <p>
+                        Enseñanza Media
+                        <br>
+                        Domingo Faustino Sarmiento
+                        <br>
+                        Egresado 2010
+                    </p>
+                </h3>
+            </div>
+
+        </div>
+
+        <!--Cuarto <div> contenedor "EXPERIENCIA LABORAL". -->
+
+        <div class="marco">
+            <div class="titulo">
+                <h3>
+                    <p id="laboral"> EXPERIENCIA LABORAL</p>
+                </h3>
+            </div>
+            <div class="texto">
+                <h3>
+                    <p>
+                        Promotor Adecco (brother) Jornada completa
+                        <br>
+                        2023- actualmente
+                        <br>
+                        Entre mis funciones se encuentra la atención directa al cliente, donde debo promover la marca
+                        Brother, mencionando las características que la destacan sobre las demás marcas. Del mismo
+                        modo, mantengo el orden y el control del stock de las diferentes tiendas a mi cargo.
+                    </p>
+                    <br>
+                    <p>Vendedor
+                        Sodimac.sa, Jornada completa
+
+                        <br>
+                        may. 2016 - oct. 2022
+                        <br>
+                        Entre mis funciones me dedicaba a la atención a clientes, orden y de la reposición de
+                        mercadería. Del mismo modo mantenía el estándar de precios de mi área de trabajo y realizaba
+                        inventarios de esta.
+                    </p>
+
+                </h3>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Comienza el pie de página (footer) con información de contacto y enlaces a redes sociales. -->
+    <!-- Las redes sociales se muestran como imágenes enlazadas. -->
+
+    <footer class="pie">
+        <div>
+            <div id="red_texto">
+                <h4>
+                    <p>REDES SOCIALES</p>
+                </h4>
+            </div>
+            <div class="redes_so">
+
+                <div class="redes"><a href="https://api.whatsapp.com/send/?phone=56934529859"><img id="logo1"
+                            src="Fotos/logo_w.png" alt="logo_wathsapp"></a></div>
+                <div class="redes"><a href="https://www.instagram.com/felipe.rc.1992/"><img id="logo2"
+                            src="Fotos/logo_i.png" alt="logo_instegram"></a></div>
+                <div class="redes"><a href="https://www.facebook.com/profile.php?id=100003353721001"><img id="logo3"
+                            src="Fotos/logo_f.png" alt="logo_fecebook"></a></div>
+
+                <div>
+                </div>
+            </div>
+        </div>
+        <div class="contacto">
+            <div>
+                <p>Correo electrónico: <br> felipe.rc.1992@gmail.com</p>
+            </div>
+            <div>
+                <p>Teléfono: <br> +56934529859</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

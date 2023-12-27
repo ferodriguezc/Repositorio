@@ -1,0 +1,66 @@
+html {
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #2ebf91, #8360c3);
+    background: linear-gradient(to right, #2ebf91, #8360c3);
+    background-size: cover;
+    /* Hace que la imagen de fondo cubra toda la página */
+    background-repeat: no-repeat;
+    /* Evita que la imagen de fondo se repita */
+    background-attachment: fixed;
+    /* Fija la imagen de fondo, para que permanezca en su lugar mientras se desplaza por la página */
+    text-transform: uppercase;
+    color: aliceblue;
+
+}
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.texto {
+    margin-bottom: 10%;
+    text-align: justify;
+}
+
+
+
+.inline-element {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 5%;
+}
+
+.logos {
+    max-width: 100px;
+    height: 100px;
+    
+}
+
+.contenedor{
+    
+    margin: 5%;
+}
+
+footer {
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+}

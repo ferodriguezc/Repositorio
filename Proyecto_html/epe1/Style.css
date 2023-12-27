@@ -1,0 +1,256 @@
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////   Global     ////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* Definición de una fuente personalizada llamada 'MiFuentePersonalizada' para ser utilizada en el proyecto */
+@font-face {
+  font-family: 'MiFuentePersonalizada';
+  src: url(Font/KGRedHands.ttf) format('woff2');
+}
+
+/* Estilo global para el elemento HTML, el cual define el color de fondo de la pagina*/
+html {
+  background-color: #1d1d20;
+  margin: 30
+  px;
+}
+
+/* Estilo para todos los elementos h3 */
+h3 {
+  font-weight: normal;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////   Body     ////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////   Header     /////////////////////////////////////////////////*/
+
+/* Estilo para elementos con la clase 'cuerpo' */
+.cuerpo {
+  display: block;
+  margin: 0px;
+}
+
+/* Estilo para elementos con la clase 'encabezado' */
+.encabezado {
+  background-size: cover;
+  display: block;
+  align-items: center;
+  text-align: center;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+/* Estilo para el elemento con el ID 'texto_titulo' */
+#texto_titulo {
+  color: #fff;
+  margin-bottom: 30px;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+/* Estilo para el elemento con el ID 'foto_perfil' */
+#foto_perfil {
+  margin-top: 30px;
+}
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////   Nav     ////////////////////////////////////////////////////*/
+
+.menu{
+ 
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  
+}
+
+
+/* Quitar el subrayado y color de los botones con  href*/
+#linkform{
+  text-decoration: none; 
+  color: inherit;
+}
+
+/* Estilo para el elemento con la clase 'botones' */
+
+.botones{
+  display: flex;
+  align-items: center;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+  margin: 10px;
+  background-color: rgb(57, 172, 160);
+  color: #fff;
+  border-radius: 10%;
+}
+
+.botones:hover{
+  background-color: rgb(36, 109, 102);
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////   Main     ////////////////////////////////////////////////////*/
+
+/* Estilo para elementos con la clase 'principal' */
+.principal {
+  margin-top: 100px;
+  display: block;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilo para elementos con la clase 'lista' */
+.lista {
+  margin-left: -15px;
+  line-height: 2;
+  list-style: none;
+}
+
+/* Estilo para elementos con la clase 'texto' */
+.texto {
+  color: #fff;
+  text-align: center;
+  margin: 45px;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+
+/* Estilo para elementos con la clase 'titulo' */
+.titulo {
+  background-color: rgb(57, 172, 160);
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  color: #fff;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+  
+}
+
+/* Estilo para elementos con la clase 'marco' */
+.marco {
+ border: solid rgb(57, 172, 160) 10px;
+ margin-top: 50px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////   Footer     ////////////////////////////////////////////////////*/
+
+
+/* Estilo para elementos con la clase 'pie' */
+.pie {
+  background-color: rgb(52, 155, 145);
+  display: flex;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Estilo para el elemento con el ID 'red_texto' */
+#red_texto {
+  margin-bottom: -25px;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+/* Estilo para elementos con la clase 'redes_so' */
+.redes_so {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+
+/* Estilo para elementos con la clase 'redes' */
+.redes {
+  margin: 10px;
+  text-align: center;
+
+}
+
+/* Estilo para el elemento con el ID 'logo1' */
+#logo1 {
+  width: 50px;
+  height: 50px;
+}
+
+/* Estilo para el elemento con el ID 'logo2' */
+#logo2 {
+  width: 45px;
+  height: 45px;
+}
+
+/* Estilo para el elemento con el ID 'logo3' */
+#logo3 {
+  width: 60px;
+  height: 60px;
+}
+
+/* Estilo para el elemento con el ID 'logo4' */
+#logo4 {
+  width: 49px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  
+}
+
+/* Estilo para el elemento con la clase 'contacto' */
+.contacto{
+  margin-left:  10%;
+  align-items: center;
+  text-align: center;
+  font-family: 'MiFuentePersonalizada', sans-serif;
+}
+
+
+
+.btn-2 a {
+  color: #ffffff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-2 a:hover {
+  color: #000000;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-2 a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+
+.btn-2 a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  transition: all 0.5s ease-in-out;
+  transform: scaleX(1);
+}
+
+.btn-2 {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

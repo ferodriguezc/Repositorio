@@ -1,0 +1,16 @@
+
+html{
+     margin: 5px;
+}
+.encabezado {
+    background-color: rgb(69, 183, 54);
+    padding: 10%;
+    border-radius: 10px;
+   
+}
+
+.fondo{
+
+    background-color: aqua;
+   
+}
